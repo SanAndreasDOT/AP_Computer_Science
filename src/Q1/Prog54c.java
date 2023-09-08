@@ -1,6 +1,6 @@
 package Q1;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Prog54c {
     public static void main(String[] args) {
@@ -18,7 +18,11 @@ public class Prog54c {
         System.out.println("Radius: " + rad);
         System.out.println("Circumference: " + cir);
 
-
+/*
+Please enter Radius: Please enter circumference: Area = 41.0
+Radius: 3
+Circumference: 22
+ */
 
 
 

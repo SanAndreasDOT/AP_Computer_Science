@@ -2,6 +2,9 @@ package Q1;
 import java.util.*;
 public class Prog72t {
     public static void main(String[] args) {
+
+        //Need Help
+
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the First Time (Hr) ");
         int time1 = input.nextInt();

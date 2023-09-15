@@ -20,6 +20,14 @@ public class Prog76a {
 
 
 
+        /* Enter a number you dislike between 1 - 9 5
+        5 * 9  = 45
+        5 and 45 * 12345679
+        = 555555555 Haha Sucker
+
+        Process finished with exit code 0
+        */
+
 
         
     }

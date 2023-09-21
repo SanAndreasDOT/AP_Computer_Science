@@ -12,9 +12,9 @@ public class Prog122a {
             lcv += 1; // lvc = lcv + 1;
             System.out.println(lcv);
         }
-
+        //lcvsq = (int) Math.pow(lcvsq, lcv);
         while (lcvsq < 2500) {
-            lcvsq += (int) Math.pow(lcvsq, lcv);
+            lcvsq *= lcv;
             System.out.println(lcvsq);
         }
 

@@ -5,7 +5,7 @@ public class Prog122a {
 
         int lcv = 0;
         int lcvsq = 1;
-        double lcvsqr = 0;
+        int lcvsqr = 0;
 
 
         while (lcv < 50) {
@@ -18,7 +18,7 @@ public class Prog122a {
             System.out.println(lcvsq);
         }
 
-        while (lcvsqr < 7); {
+        while (lcvsqr < 8); {
             lcvsqr += Math.sqrt(lcvsq);
             System.out.println(lcvsqr);
         }

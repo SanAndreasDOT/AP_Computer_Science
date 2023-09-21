@@ -4,7 +4,7 @@ public class Prog122a {
     public static void main(String[] args) {
 
         int lcv = 0;
-        int lcvsq = 0;
+        int lcvsq = 1;
         double lcvsqr = 0;
 
 
@@ -18,7 +18,7 @@ public class Prog122a {
             System.out.println(lcvsq);
         }
 
-        while (lcvsqr < 7.0711); {
+        while (lcvsqr < 7); {
             lcvsqr += Math.sqrt(lcvsq);
             System.out.println(lcvsqr);
         }

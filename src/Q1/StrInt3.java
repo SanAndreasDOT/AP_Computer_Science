@@ -13,3 +13,7 @@ public class StrInt3 {
         }
     }
 }
+/*
+Moring
+First non-repeating character is: m
+ */

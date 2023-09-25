@@ -28,3 +28,8 @@ public class StrInt2 {
         System.out.println("Are the strings anagrams: " + anagram.isEmpty());
     }
 }
+/*
+Army
+Mary
+Are the strings anagrams: true
+ */

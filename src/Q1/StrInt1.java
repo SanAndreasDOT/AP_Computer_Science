@@ -19,3 +19,7 @@ public class StrInt1 {
         }
     }
 }
+/*
+Beautiful Beach
+Duplicate characters: B e a u
+ */

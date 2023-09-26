@@ -1,5 +1,4 @@
 package Q1;
-import javax.imageio.plugins.tiff.TIFFImageReadParam;
 import java.util.*;
 public class LP_4_1 {
     public static void main(String[] args) {
@@ -15,13 +14,12 @@ public class LP_4_1 {
             System.out.println("Number Of Copys: " + NumCopys);
             System.out.println("Price Per Copy: " + PricePerCopy);
             System.out.println("Total Cost: " + Total);
-         else NumCopys<=499
+            else NumCopys<=499
             PricePerCopy = 0.28;
             Total = PricePerCopy * NumCopys;
             System.out.println("Number Of Copys: " + NumCopys);
             System.out.println("Price Per Copy: " + PricePerCopy);
             System.out.println("Total Cost: " + Total);
-
             else NumCopys<=749
             PricePerCopy = 0.27;
             Total = PricePerCopy * NumCopys;
@@ -29,18 +27,18 @@ public class LP_4_1 {
             System.out.println("Price Per Copy: " + PricePerCopy);
             System.out.println("Total Cost: " + Total);
             else NumCopys<=1000
-                PricePerCopy = 0.26;
-                Total = PricePerCopy * NumCopys;
-                System.out.println("Number Of Copys: " + NumCopys);
-                System.out.println("Price Per Copy: " + PricePerCopy);
-                System.out.println("Total Cost: " + Total);
+            PricePerCopy = 0.26;
+            Total = PricePerCopy * NumCopys;
+            System.out.println("Number Of Copys: " + NumCopys);
+            System.out.println("Price Per Copy: " + PricePerCopy);
+            System.out.println("Total Cost: " + Total);
 
-                else NumCopys<1000
-                         PricePerCopy = 0.25;
-                         Total = PricePerCopy * NumCopys;
-                         System.out.println("Number Of Copys: " + NumCopys);
-                         System.out.println("Price Per Copy: " + PricePerCopy);
-                         System.out.println("Total Cost: " + Total);
+            else NumCopys<1000
+            PricePerCopy = 0.25;
+            Total = PricePerCopy * NumCopys;
+            System.out.println("Number Of Copys: " + NumCopys);
+            System.out.println("Price Per Copy: " + PricePerCopy);
+            System.out.println("Total Cost: " + Total);
 
             }
         }

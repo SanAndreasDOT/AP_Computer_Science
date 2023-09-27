@@ -34,11 +34,12 @@ public class StrInt6 {
         int Xcount = 0;
         int Ycount = 0;
         int Zcount = 0;
-
+/*
+Lie?
         for (int lcv = 0; lcv < mytext.length(); lcv++) {
-            // somthing .substring
+            // something .substring
             char cur = mytext.charAt(lcv);
-
         }
+ */
     }
 }

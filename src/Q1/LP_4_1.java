@@ -8,7 +8,7 @@ public class LP_4_1 {
         double PricePerCopy = 0.00;
         double Total = 0.00;
 
-        if (NumCopys <= 99) {
+        /*if (NumCopys <= 99) {
             PricePerCopy = 0.30;
             Total = PricePerCopy * NumCopys;
             System.out.println("Number Of Copys: " + NumCopys);

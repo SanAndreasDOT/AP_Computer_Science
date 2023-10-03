@@ -5,18 +5,24 @@ public class Prog93a {
 
         //Need Help
 
-        double base = 4.75;
+        double base = 0.0475;
         double surcharge = 0.1;
-        double cityutil = 0.03;
-        double latefee = 0.04;
+        double cityutil = 0.3;
+        double latefee = 0.4;
         double total = 0;
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter Energy Used ");
+        System.out.print("Enter Energy Used ");
         double UserInput = input.nextDouble();
 
 
-
+            total = base  * UserInput + surcharge + cityutil;
+            System.out.println(UserInput);
+            System.out.println(base);
+            System.out.println(surcharge);
+            System.out.println(cityutil);
+            System.out.println(latefee);
+            System.out.println(total);
 
 
 

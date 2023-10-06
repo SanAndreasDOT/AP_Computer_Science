@@ -16,9 +16,9 @@ public class Prog93a {
 
         Scanner input = new Scanner(System.in);
         System.out.print("Enter Energy Used ");
-        int UserInput = input.nextInt();
+        double UserInput = input.nextDouble();
 
-        UserInput = (int) (UserInput * base);
+        UserInput = (UserInput * base);
         basetax = UserInput + (UserInput * surcharge);
         citytaxtot = UserInput + (UserInput * cityutil);
         latefeetot = UserInput + (UserInput * latefee);

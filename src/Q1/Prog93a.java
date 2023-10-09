@@ -19,9 +19,9 @@ public class Prog93a {
         double UserInput = input.nextDouble();
 
         UserInput = (UserInput * base);
-        basetax = UserInput + (UserInput * surcharge);
-        citytaxtot = UserInput + (UserInput * cityutil);
-        latefeetot = UserInput + (UserInput * latefee);
+        basetax = UserInput * surcharge;
+        citytaxtot = UserInput * cityutil;
+        latefeetot = UserInput * latefee;
         total = basetax + citytaxtot + latefeetot;
 
 

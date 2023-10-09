@@ -3,16 +3,14 @@ import java.util.*;
 public class Prog93a {
     public static void main(String[] args) {
 
-        //Need Help
-
         double base = 0.0475;
         double surcharge = 0.1;
-        double basetax = 0;
+        double basetax;
         double cityutil = 0.03;
-        double citytaxtot = 0;
+        double citytaxtot;
         double latefee = 0.4;
         double latefeetot = 0;
-        double total = 0;
+        double total;
 
         Scanner input = new Scanner(System.in);
         System.out.print("Enter Energy Used ");
@@ -21,13 +19,8 @@ public class Prog93a {
         UserInput = (UserInput * base);
         basetax = UserInput * surcharge;
         citytaxtot = UserInput * cityutil;
-        latefeetot = UserInput * latefee;
         total = basetax + citytaxtot + latefeetot;
-
-
-
-
-
+        latefeetot = UserInput * latefee;
 
             System.out.println("UserInput " + UserInput);
             System.out.println("base " + base);
@@ -38,15 +31,5 @@ public class Prog93a {
             System.out.println("latefee " + latefee);
             System.out.println("latefeetot " + latefeetot);
             System.out.println("total " + total);
-
-
-
-
-
-
-
-
-
-
     }
 }

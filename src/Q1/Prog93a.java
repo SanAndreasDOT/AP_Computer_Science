@@ -29,15 +29,15 @@ public class Prog93a {
 
 
 
-            System.out.println(UserInput);
-            System.out.println(base);
-            System.out.println(surcharge);
-            System.out.println(basetax);
-            System.out.println(cityutil);
-            System.out.println(citytaxtot);
-            System.out.println(latefee);
-            System.out.println(latefeetot);
-            System.out.println(total);
+            System.out.println("UserInput " + UserInput);
+            System.out.println("base " + base);
+            System.out.println("surcharge " + surcharge);
+            System.out.println("basetax " + basetax);
+            System.out.println("cityutil " + cityutil);
+            System.out.println("citytaxtot " + citytaxtot);
+            System.out.println("latefee " + latefee);
+            System.out.println("latefeetot " + latefeetot);
+            System.out.println("total " + total);
 
 
 

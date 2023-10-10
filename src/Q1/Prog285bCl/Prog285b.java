@@ -16,7 +16,7 @@ public class Prog285b {
 
                 Salesperson fred = new Salesperson(id, code, sales);
                 fred.setComm();
-                System.out.println(fred.toString()); // println fred
+                System.out.println(fred.toString()); // println(fred);
             }
 
         } catch (IOException e) {

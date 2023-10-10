@@ -27,15 +27,18 @@ public class Salesperson {
         myComm = 0;
     }
 
-    public void setMyComm() {calc(); }
+    public void setMyComm() { calc(); }
 
-    public int getId() {return myId; }
-    public int getCode() {return myCode; }
-    public double getComm() {return myComm; }
-    public double getSales() {return mySales; }
+    public int getId() { return myId; }
+    public int getCode() { return myCode; }
+    public double getComm() { return myComm; }
+    public double getSales() { return mySales; }
 
     public String toString() {
         return myId + "\t" + myCode + "\t" + mySales + "\t" + myComm;
         // return getId() + "\t" + getCode() +...
+    }
+
+    public void setComm() {
     }
 }

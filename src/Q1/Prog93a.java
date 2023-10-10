@@ -37,7 +37,7 @@ public class Prog93a {
 }
 /*
 Enter Energy Used 993
-total 53.95962
+total 53.95
 
 Process finished with exit code 0
  */

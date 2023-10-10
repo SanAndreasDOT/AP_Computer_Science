@@ -7,8 +7,8 @@ public class Prog93a {
         double surcharge = 0.1;
         double basetax;
         double cityutil = 0.03;
-        double citytaxtot;
-        double latefee = 0.4;
+        double citytaxtot = 0;
+        double latefee = 0.04;
         double latefeetot = 0;
         double total;
 
@@ -17,12 +17,12 @@ public class Prog93a {
         double UserInput = input.nextDouble();
 
         UserInput = (UserInput * base);
-        basetax = UserInput * surcharge;
-        citytaxtot = UserInput * cityutil;
-        total = basetax + citytaxtot + latefeetot;
-        latefeetot = UserInput * latefee;
+        basetax = UserInput + (UserInput * surcharge);
+        cityutil = basetax + (basetax * cityutil);
+        latefee = basetax + (basetax * latefee);
+        total = latefee;
 
-            System.out.println("UserInput " + UserInput);
+/*          System.out.println("UserInput " + UserInput);
             System.out.println("base " + base);
             System.out.println("surcharge " + surcharge);
             System.out.println("basetax " + basetax);
@@ -30,6 +30,14 @@ public class Prog93a {
             System.out.println("citytaxtot " + citytaxtot);
             System.out.println("latefee " + latefee);
             System.out.println("latefeetot " + latefeetot);
+*/
+
             System.out.println("total " + total);
     }
 }
+/*
+Enter Energy Used 993
+total 53.95962
+
+Process finished with exit code 0
+ */

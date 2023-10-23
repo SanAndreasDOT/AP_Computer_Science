@@ -5,8 +5,8 @@ public class LP_4_1 {
         System.out.print("Number Of Copys Requested: ");
         Scanner input = new Scanner(System.in);
         int NumCopys = input.nextInt();
-        double PricePerCopy = 0.00;
-        double Total = 0.00;
+        double PricePerCopy;
+        double Total;
 
         if (NumCopys <= 99)
             PricePerCopy = 0.30;
@@ -16,8 +16,7 @@ public class LP_4_1 {
             PricePerCopy = 0.27;
             else if (NumCopys<=1000)
             PricePerCopy = 0.26;
-            else if (NumCopys < 1000)
-            PricePerCopy = 0.25;
+            else PricePerCopy = 0.25;
 
         Total = PricePerCopy * NumCopys;
         System.out.println("Number Of Copys: " + NumCopys);
@@ -25,3 +24,9 @@ public class LP_4_1 {
         System.out.println("Total Cost: " + Total);
     }
 }
+/*
+Number Of Copys Requested: 1001
+Number Of Copys: 1001
+Price Per Copy: 0.25
+Total Cost: 250.25
+ */

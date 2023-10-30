@@ -13,6 +13,8 @@ public class Prog58b {
         if (d > 0.0){
             double r1 = (-b + Math.pow(d, 0.5)) / (2.0 * a);
             double r2 = (-b - Math.pow(d, 0.5)) / (2.0 * a);
+            //Math.sqrt (b*b - 4 * a * c)
+            //Math.sqrt(Math.pow(B,2) - 4 * a * c)
             System.out.println("The Roots are " + r1 + " and " + r2);
         }
         else if (d == 0.0) {

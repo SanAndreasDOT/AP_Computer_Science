@@ -20,6 +20,7 @@ public class Prog58t {
         double amtDue = payed - cost;
 
         dollars = (int) (amtDue / 1.00);
+        q = (int) (dollars / .25);
 
 
 

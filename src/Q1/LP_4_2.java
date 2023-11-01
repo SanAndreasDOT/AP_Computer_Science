@@ -38,3 +38,13 @@ public class LP_4_2 {
 
     }
 }
+/*
+Enter Length: 37
+Enter Width: 55
+Enter Height: 26
+Enter Weight: 50
+To Heavy
+Size is: 48100
+
+Process finished with exit code 0
+ */

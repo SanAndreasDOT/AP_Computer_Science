@@ -50,6 +50,6 @@ public class Prog88a {
         // Difference =	-7
         // Product =	260
         // Average =	 16.5
-        //  Absolute value =	7
+        // Absolute value =	7
     }
 }

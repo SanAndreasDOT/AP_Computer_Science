@@ -17,3 +17,9 @@ public class Prog93a {
         System.out.println(output);
     }
 }
+/*
+Enter Energy Used: 993
+Your Total is: 53.95
+
+Process finished with exit code 0
+ */

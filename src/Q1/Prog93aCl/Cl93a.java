@@ -3,7 +3,7 @@ package Q1.Prog93aCl;
 import static java.lang.Math.round;
 
 public class Cl93a { //Rectangle (Helper Class)
-    private final int kwatts;
+    private double kwatts;
     private double total;
 
     // Input Section (Constructor)
@@ -20,6 +20,17 @@ public class Cl93a { //Rectangle (Helper Class)
     // Calculation Section (Mutators/Setters)
     public void calc(){
         total = round(kwatts * 0.0475);
+        double surcharge = 0.03;
+        double baserate = 0.0475;
+        double citytax = 0.1;
+        double latetotal = 0.04;
+        double basetax;
+
+        kwatts = (kwatts * baserate);
+        basetax = kwatts + (kwatts * citytax);
+        surcharge = basetax + (basetax * surcharge);
+        total = basetax + (basetax * latetotal);
+
 
 
 

@@ -17,7 +17,7 @@ public class Cl213f {
         }   else if (myKwh < 2000 & myKwh > 8000){
             myCost = myKwh * 0.05;
         } else {
-            if (!(myKwh < 2000 & myKwh < 8000 & myKwh > 1000)) {
+            if (myKwh < 2000 & myKwh < 8000 & myKwh > 1000) {
                 return;
             }
             myCost = myKwh * 0.04;

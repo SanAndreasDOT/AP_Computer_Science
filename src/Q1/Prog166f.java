@@ -7,10 +7,10 @@ public class Prog166f {
 
         for (int lcv=0; lcv<=10; lcv++) {
             int sum = 0;
-            for (int num=0; lcv<=10; num++) {
-                num=num+1;
-                sum = sum +100;
-                lcv++;
+            for (int i = 0; i <= 10; i++) {
+                System.out.println(i);
+                int num1 = 0;
+
 
             }
             System.out.println(sum);

@@ -9,33 +9,6 @@ public class Prog122i {
         int Cube = 0;
         int Root = 0;
         int i = 0;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
+// link to doc: https://docs.google.com/document/d/12-5sZOXJ5CiXt6GSft48zGFnYfnIZhwt/edit

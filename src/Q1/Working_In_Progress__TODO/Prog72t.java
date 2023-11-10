@@ -3,7 +3,6 @@ import java.util.*;
 public class Prog72t {
     public static void main(String[] args) {
 
-        //Need Help
 
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the First Time (Top) ");
@@ -19,15 +18,6 @@ public class Prog72t {
 
         //* Test Output | System.out.println(time1); System.out.println(time2); | *//
 
-
-
-
-
-
-
-
-
-
-
     }
 }
+// link to doc: https://docs.google.com/document/d/1qGCbWk_ijMwgjZDhg0yvMKvQrC1hChl2/edit

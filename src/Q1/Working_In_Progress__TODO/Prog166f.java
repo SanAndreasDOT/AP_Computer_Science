@@ -13,29 +13,6 @@ public class Prog166f {
             System.out.println(sum);
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
+// link to doc: https://docs.google.com/document/d/14XrJyUCueLrC6yGDkJR86KzIAkrKoaDK/edit

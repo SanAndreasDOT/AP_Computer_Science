@@ -1,4 +1,4 @@
-package Q1.Working_In_Progress__TODO;
+package Q1;
 import java.util.*;
 public class LP_4_6 {
     public static void main(String[] args) {

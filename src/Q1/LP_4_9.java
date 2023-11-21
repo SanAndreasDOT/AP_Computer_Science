@@ -1,4 +1,4 @@
-package Q1.Working_In_Progress__TODO;
+package Q1;
 import java.util.*;
 public class LP_4_9 {
     public static void main(String[] args) {
@@ -25,7 +25,7 @@ public class LP_4_9 {
 /*
 Enter Number Between 1 - 20:
 5
-Computer's Number: 1
+Computers Number: 1
 Sorry Wrong Number
 
 Process finished with exit code 0

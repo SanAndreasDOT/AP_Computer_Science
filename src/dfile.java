@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class dfile {
     public static void main(String[] args) {
         try {
-            Scanner input = new Scanner (new File("folder/file.dat"));
+            Scanner input = new Scanner (new File("Langdat/file.dat"));
             while (input.hasNext()) {
 
             }

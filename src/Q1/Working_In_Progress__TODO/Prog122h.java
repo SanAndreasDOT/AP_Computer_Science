@@ -18,6 +18,7 @@ public class Prog122h {
             System.out.println(num);
         }
 
+
     }
 }
 // link to doc: https://docs.google.com/document/d/1YaC__kqn8aF8Fh_Z6joKxDmpYbuEgjrD/edit

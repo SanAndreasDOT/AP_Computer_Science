@@ -1,7 +1,5 @@
 package Q2.LP4_8;
 
-import Q1.Prog88aCl.Cl88a;
-
 import java.util.Scanner;
 
 public class LP4_8 {

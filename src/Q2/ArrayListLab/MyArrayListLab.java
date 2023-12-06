@@ -1,4 +1,8 @@
-package Q2.ArrayListLab;
+//package Q2.ArrayListLab;
+//
+//import java.util.ArrayList;
+//
+//public class MyArrayListLab {
 //    public static void main(String[] args) {
 //        IntArrayList list = new IntArrayList();
 //
@@ -30,5 +34,8 @@ package Q2.ArrayListLab;
 //        }
 //    }
 //}
-
-// Link to doc: https://docs.google.com/document/d/104HDKAAQ0zmxrrvrnG82N2yaov91oNj9/edit
+//
+//
+//
+//
+//// Link to doc: https://docs.google.com/document/d/104HDKAAQ0zmxrrvrnG82N2yaov91oNj9/edit

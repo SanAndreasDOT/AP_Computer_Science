@@ -3,7 +3,7 @@ import java.util.*;
 public class Prog122i {
     public static void main(String[] args) {
 
-
+//Math ERROR
         int Num = 0;
         int Roof = 0;
         int Cube = 0;

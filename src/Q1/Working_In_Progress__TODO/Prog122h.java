@@ -17,7 +17,7 @@ public class Prog122h {
 
             System.out.println(num);
         }
-
+//Math ERROR
 
     }
 }

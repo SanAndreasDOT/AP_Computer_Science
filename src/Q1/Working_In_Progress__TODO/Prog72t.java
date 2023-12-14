@@ -15,7 +15,7 @@ public class Prog72t {
         int time4 = input.nextInt();
 
 
-
+// Find out how to add the damn time input
         //* Test Output | System.out.println(time1); System.out.println(time2); | *//
 
     }

@@ -3,30 +3,6 @@ import java.util.*;
 public class Prog122d {
     public static void main(String[] args) {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
+// link to doc: https://docs.google.com/document/d/1m_K_eyamd63JVgHwXdUW9rku5F_4NZWJ/edit

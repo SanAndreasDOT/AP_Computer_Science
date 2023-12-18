@@ -10,15 +10,26 @@ public class LP_5_5 {
         int num2 = 0;
         int num3 = 0;
 
-
-
+        for (int lcv =0; lcv < userinput; lcv++){
+            num1++;
+            num2+++;
+            num3++++;
+        }
 
 
 
         System.out.println(num1);
         System.out.println(num2);
         System.out.println(num3);
-// set the number they in put on its own line
+// set the number they input on its own line
     }
 }
+/*
+Enter positive integer: 546
+5
+4
+6
+
+Process finished with exit code 0
+ */
 // link to doc: https://docs.google.com/document/d/1SqOzJPkdo9C3bmi8vTffGUO5ycCB_hV1/edit

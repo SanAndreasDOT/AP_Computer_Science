@@ -1,6 +1,6 @@
 package Q1;
 import java.util.*;
-public class LP_5_6 {
+public class LP_5_6_DONE_ {
     public static void main(String[] args) {
         Scanner input = new Scanner (System.in);
         System.out.print("Enter positive integer: ");

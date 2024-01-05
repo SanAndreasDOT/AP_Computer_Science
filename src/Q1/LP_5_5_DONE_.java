@@ -1,6 +1,6 @@
 package Q1;
 import java.util.*;
-public class LP_5_5 {
+public class LP_5_5_DONE_ {
     public static void main(String[] args) {
         Scanner input = new Scanner (System.in);
 
